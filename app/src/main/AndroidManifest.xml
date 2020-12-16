@@ -9,7 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectForPattern">
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".MyProducts"
+            android:label="Мои продукты"/>
+        <activity android:name=".MyPurchase"
+            android:label="Мои покупки"/>
+        <activity android:name=".EditProfile"
+            android:label="Редактор профиля"/>
+        <activity android:name=".Basket"
+            android:label="Корзина"/>
+        <activity android:name=".AddProduct"
+            android:label="Добавить продукт"/>
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">

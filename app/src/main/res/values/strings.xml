@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">ProjectForPattern</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Магазин</string>
+    <string name="title_dashboard">Профиль</string>
 </resources>
